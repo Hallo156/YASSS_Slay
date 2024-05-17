@@ -1,0 +1,182 @@
+/*SquidDataOnly*/
+
+.container {
+        display: flex;
+        flex-wrap: wrap; /* Umbruch, wenn der Platz nicht ausreicht */
+    }
+
+/*LeftSide*/
+    .left-section {
+        width: calc(50%);
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .heading-container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+
+    .highlighted-heading {
+        width: calc(33.33%);
+        text-align: center;
+        padding: 10px;
+        border-bottom: 3px solid black;
+        box-sizing: border-box;
+    }
+
+    .text-below-heading {
+        padding: 10px;
+    }
+
+    /*RightSide*/
+    .right-section {
+        width: calc(50%);
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+
+    .table-container {
+        height: calc(100%);
+    }
+
+    /*SingleColumn*/
+    td {
+        padding: 5px;
+        border: 1px solid black;
+    }
+
+    .first-column {
+        width: 50%;
+    }
+
+    #smoll {
+    width:350px;
+    height:350px;
+    }
+
+    Overview {
+    display:block
+    }
+    Ability {
+    display:none
+    }
+    Relationship {
+    display:none
+    }
+
+    .smallButton {
+        width: 100px;
+        font-family: serif;
+        font-variant: small-caps;
+        background: linear-gradient(0deg, azure, transparent);
+        font-size: 0.9em;
+    }
+
+/*EndOfOnlySquidData*/
+
+
+
+
+
+button {
+    width: 150px;
+    font-family: serif;
+    font-variant: small-caps;
+    background: linear-gradient(0deg, azure, transparent);
+    font-size: 1em;
+}
+
+.TopStuff {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.middle {
+  align-self: center;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+
+hide {
+display: none;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: fantasy;
+}
+h2 {
+    text-align: center;
+    font-family: serif;
+    font-variant: small-caps;
+}
+h3 {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+body {
+    inline-size: min-content;
+    width: 800px;
+}
+.klasse {
+    color: blue;
+}
+
+button:hover{
+     background: linear-gradient(0deg, red, transparent);
+}
+
+img {
+outline-style: ridge;
+width: 700px;
+height: 700px;
+}
+
+
+ImageS {
+display: none;
+}
+
+video {
+outline-style: ridge;
+width: 700px;
+height: 700px;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: double;
+}
+
+/*
+nav h1{
+}
+|Alles mit nav in h1 designen
+
+h2 + p{
+}
+|Direkte Geschwister Z.B. wenn ein h2 ist und darauf ein p folgt wir das p gestylt
+
+h2 ~ p{
+}
+|Alle folgenden p nach dem h werden gestylt, bis die nächste größere Unterteilung kommt
+
+
+
+
+
+*/
+
